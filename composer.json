@@ -10,5 +10,14 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": "^7.2",
+        "spiral/roadrunner": "^1.5",
+        "nyholm/psr7": "^1.2"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
 }
