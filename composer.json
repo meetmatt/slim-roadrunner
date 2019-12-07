@@ -1,0 +1,14 @@
+{
+    "name": "meetmatt/slim-roadrunner",
+    "description": "Slim 4 with RoadRunner",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iurii Golikov",
+            "email": "iurii.golikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
