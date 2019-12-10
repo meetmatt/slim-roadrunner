@@ -14,11 +14,17 @@
         "php": "^7.2",
         "nyholm/psr7": "^1.2",
         "slim/slim": "^4.3",
-        "spiral/roadrunner": "^1.5"
+        "spiral/roadrunner": "^1.5",
+        "woohoolabs/zen": "^2.7"
     },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "MeetMatt\\SlimRoadRunner\\": "src/"
+        }
     }
 }
